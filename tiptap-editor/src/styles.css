@@ -1,0 +1,72 @@
+.app,
+:root {
+  justify-content: center;
+  align-items: center;
+   margin-top: 50px;
+}
+.toolbar {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.toolbar button {
+  padding: 8px 14px;
+  border: 1px solid #000000;
+  background: #2563eb;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.toolbar button:hover {
+  background: #865aff;
+}
+
+.toolbar button.active {
+  background: #2563eb;
+  color: #ffffff;
+  border-color: #2563eb;
+  box-shadow: 0 0 4px rgba(37, 99, 235, 0.4);
+}
+
+.editor-container {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ProseMirror {
+  border: 1px solid #1d5cd8;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.headings{
+  display: flex;
+  gap: 8px;
+  margin: 12px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  border: #000000;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.headings Button{
+  background-color: #2563eb;
+  color: white;
+}
