@@ -70,3 +70,41 @@
   background-color: #2563eb;
   color: white;
 }
+
+/* Link styling */
+.tiptap-link {
+  color: #2563eb;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Image styling */
+.tiptap-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 12px auto;
+}
+
+
+/* Needed for TipTap basic formatting */
+.ProseMirror p {
+  margin: 0.5rem 0;
+}
+
+.ProseMirror blockquote {
+  border-left: 3px solid #000000;
+  padding-left: 10px;
+  color: #000000;
+  margin: 8px 0;
+  font-style: italic;
+}
+
+.ProseMirror pre {
+  background: #84f1ff;
+  padding: 8px;
+  border-radius: 6px;
+  font-family: monospace;
+  overflow-x: auto;
+  color: #000000;
+}
